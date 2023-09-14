@@ -1,0 +1,122 @@
+body{
+    background-color: black;
+    color: azure;
+    background-image : url(abstract-premium-black-gold-geometric-background_1017-24783.avif)  ;
+    
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    
+    text-align: center;
+    font-weight: bold;
+    
+    padding-right: 40px;
+    color: goldenrod;
+}
+h1{
+    padding: 40px;
+
+}
+.together{
+    display: flex;
+    padding-right:40px; 
+}
+.sidemenu button{
+    width: 200px;
+    height: 70px;
+    
+    margin: 20px;
+    font-weight: bold;
+    font-size: 23px;
+    background-color:cadetblue;
+    border: solid 2px goldenrod;
+    color: aliceblue;
+    background-image:url(seamless-black-leather-texture-gold-metal-details-vector-leather-background-golden-buttons-74249688.webp);
+    border-radius: 10px;
+}
+.sidemenu button:hover{
+    border: solid 5px white;
+}
+nav ul li {
+    
+    margin-top: 20px;
+    padding: 10px;
+    display: inline-block;
+    margin: 20px;
+    border:solid 2px goldenrod;
+    background-color:cadetblue;
+    font-size: 25px;  
+    color:white ;
+    background-image:url(seamless-black-leather-texture-gold-metal-details-vector-leather-background-golden-buttons-74249688.webp);
+    border-radius: 10px;
+}
+
+.gameConatiner{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+.container{
+    text-align: center;
+    padding: 20px;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: repeat(3,10vw);
+    grid-template-columns:repeat(3,10vw);
+}
+.box{
+    border:  6px solid gold;
+    padding:20px;
+    font-size: 6vw;
+    display: flex;
+
+}
+.container :hover{
+    background-color:darkgray;
+}
+.info{
+padding: 40x;
+margin:40px;
+
+}
+.br-0{
+    border-right: 0;
+}
+.bl-0{
+    border-left: 0;
+}
+.bt-0{
+    border-top: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
+.info{
+    font-size: 40px;
+    padding: 10px;
+    border: solid white 5px;
+
+}
+#reset{
+    font-size: large;
+    font-weight: bold;
+    padding: 20px;
+    font-size: larger;
+    border: solid 5px goldenrod;
+}
+nav ul li:hover{
+
+    border: solid 5px white;
+    color: aliceblue;
+}
+#reset:hover{
+    border: solid 8px gold;
+}
+.button{
+    padding: 20px;
+}
